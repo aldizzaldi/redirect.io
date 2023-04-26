@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body>
+
 <?php
 // Mendapatkan skema (http atau https)
 $skema = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http";
@@ -19,3 +23,7 @@ header("Location: " . $url);
 echo $url;
 // <?php // URL tujuan yang akan di-redirect $tujuan = "https://www.website-tujuan.com/";  // Lakukan redirect ke URL tujuan header("Location: " . $tujuan); exit; ?>
 ?>
+
+</body>
+</html>
+
